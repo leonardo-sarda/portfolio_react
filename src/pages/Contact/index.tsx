@@ -2,29 +2,22 @@ import React from 'react';
 import logoImg from '../../assets/avatar.png';
 import GithubIcon from '../../assets/fav-icon/git.png';
 import Linkedin from '../../assets/fav-icon/Vector.png';
-import { Profile, AboutLinks, SocialLinks, Final } from './style';
+import { Profile, AboutLinks, SocialLinks, Final, ComeBack } from './style';
+import { FiChevronRight, FiChevronsLeft, FiGithub } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
-const Home: React.FC = () => {
+const Contact: React.FC = () => {
     return (
         <>
             <Profile>
                 <img src={logoImg} alt="Leonardo Sardá" />
-                <p>Leonardo Sardá</p>
+
+                <Link to="/">
+                    <FiChevronsLeft size={15} />
+                </Link>
             </Profile>
-            <AboutLinks>
-                <ul>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/projects">Projects</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </AboutLinks>
+            <h1>Contato</h1>
+            <AboutLinks></AboutLinks>
             <SocialLinks>
                 <a
                     href="https://github.com/leonardo-sarda"
@@ -48,4 +41,4 @@ const Home: React.FC = () => {
     );
 };
 
-export default Home;
+export default Contact;

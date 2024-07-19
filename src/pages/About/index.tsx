@@ -11,26 +11,15 @@ const Home: React.FC = () => {
         <>
             <Profile>
                 <img src={logoImg} alt="Leonardo Sardá" />
-                <p>Leonardo Sardá</p>
-            </Profile>
-            <ComeBack>
+
                 <Link to="/">
                     <FiChevronsLeft size={15} />
                 </Link>
-            </ComeBack>
+            </Profile>
+
             <AboutLinks>
                 <ul>
-                    <li>
-                        Sou um apaixonado por tecnologia, adoro aprender novas
-                        coisas e sempre busco oportunidades de crescimento
-                        profissional, disciplinado, motivado e com uma
-                        experiência de 3 anos na área de sistemas ERP, incluindo
-                        o Consinco TOTVS e o SENIOR tanto como o industrial e
-                        HCM. Vivência com PHP e PL/SQL Oracle, para
-                        desenvolvimento de relatórios, intranet e aplicações
-                        web. As minhas habilidades técnicas também incluem HTML,
-                        CSS, JavaScript, React, React native e Nodejs.
-                    </li>
+                    <li></li>
                     <h1>Minhas Experiencias</h1>
                     <li>
                         Sou um apaixonado por tecnologia, adoro aprender novas
@@ -51,7 +40,7 @@ const Home: React.FC = () => {
             </AboutLinks>
             <SocialLinks>
                 <a
-                    href="https://github.com/LeonardoSarda"
+                    href="https://github.com/leonardo-sarda"
                     target="_blank"
                     rel="noreferrer"
                 >

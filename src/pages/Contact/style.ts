@@ -29,15 +29,6 @@ export const AboutLinks = styled.div`
     font-size: 25px;
     align-items: center;
 
-    a {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding: 16px;
-        border-radius: 50%;
-        text-decoration: none;
-        list-style: none;
-    }
     ul {
         list-style: none;
         display: flex;

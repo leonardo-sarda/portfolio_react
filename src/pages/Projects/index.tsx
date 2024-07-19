@@ -22,7 +22,10 @@ const Home: React.FC = () => {
             <AboutLinks>
                 <ul>
                     <li>
-                        <Link to="/">
+                        <Link
+                            to="https://github-explore-delta.vercel.app"
+                            target="__blank"
+                        >
                             Github Explore
                             <FiGithub />
                         </Link>
@@ -37,7 +40,7 @@ const Home: React.FC = () => {
             </AboutLinks>
             <SocialLinks>
                 <a
-                    href="https://github.com/LeonardoSarda"
+                    href="https://github.com/leonardo-sarda"
                     target="_blank"
                     rel="noreferrer"
                 >
