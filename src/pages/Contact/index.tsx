@@ -3,7 +3,13 @@ import logoImg from '../../assets/avatar.png';
 import GithubIcon from '../../assets/fav-icon/git.png';
 import Linkedin from '../../assets/fav-icon/Vector.png';
 import { Profile, AboutLinks, SocialLinks, Final, ComeBack } from './style';
-import { FiChevronRight, FiChevronsLeft, FiGithub } from 'react-icons/fi';
+import {
+    FiChevronRight,
+    FiChevronsLeft,
+    FiGithub,
+    FiMail,
+    FiMessageCircle,
+} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const Contact: React.FC = () => {
@@ -16,8 +22,25 @@ const Contact: React.FC = () => {
                     <FiChevronsLeft size={15} />
                 </Link>
             </Profile>
-            <h1>Contato</h1>
-            <AboutLinks></AboutLinks>
+            <AboutLinks>
+                <ul>
+                    <li>
+                        <Link
+                            to="mailto:leonardo_Sarda@hotmail.com"
+                            target="__blank"
+                        >
+                            <FiMail size={25} />
+                            Leonardo_sarda@hotmail.com
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="">
+                            <FiMessageCircle size={25} />
+                            (48) 98426-1160
+                        </Link>
+                    </li>
+                </ul>
+            </AboutLinks>
             <SocialLinks>
                 <a
                     href="https://github.com/leonardo-sarda"

@@ -11,14 +11,12 @@ const Home: React.FC = () => {
         <>
             <Profile>
                 <img src={logoImg} alt="Leonardo Sardá" />
-                <p>Leonardo Sardá</p>
-            </Profile>
-            <ComeBack>
+
                 <Link to="/">
                     <FiChevronsLeft size={15} />
                 </Link>
-            </ComeBack>
-            <h1>Projetos</h1>
+            </Profile>
+
             <AboutLinks>
                 <ul>
                     <li>
@@ -27,14 +25,31 @@ const Home: React.FC = () => {
                             target="__blank"
                         >
                             Github Explore
+                        </Link>
+                        <Link
+                            to="https://github.com/leonardo-sarda/github_explore"
+                            target="__blank"
+                        >
                             <FiGithub />
                         </Link>
                     </li>
                     <li>
                         <Link to="/">Controle Financeiro</Link>
+                        <Link
+                            to="https://github.com/leonardo-sarda/github_explore"
+                            target="__blank"
+                        >
+                            <FiGithub />
+                        </Link>
                     </li>
                     <li>
                         <Link to="/">Agendamento de Barbearia</Link>
+                        <Link
+                            to="https://github.com/leonardo-sarda/goBarber"
+                            target="__blank"
+                        >
+                            <FiGithub />
+                        </Link>
                     </li>
                 </ul>
             </AboutLinks>

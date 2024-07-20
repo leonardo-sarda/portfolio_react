@@ -59,6 +59,10 @@ export const AboutLinks = styled.div`
             border: 1px solid white;
         }
     }
+
+    svg {
+        margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+    }
 `;
 export const SocialLinks = styled.div`
     padding: 24px 0;

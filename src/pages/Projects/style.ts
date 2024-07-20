@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export const Profile = styled.div`
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    //text-align: center;
     padding: 24px 0;
     font-weight: 500;
     line-height: 24px;
+    align-items: center;
 
     img {
         width: 112px;
@@ -33,12 +36,15 @@ export const AboutLinks = styled.div`
         text-decoration: none;
     }
 
-    ul li a {
+    ul li {
         display: flex;
         align-items: center;
         justify-content: center;
 
         padding: 16px 24px;
+
+        flex-direction: column; /* Muda a direção do flex para coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
 
         background: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.5);
@@ -53,6 +59,9 @@ export const AboutLinks = styled.div`
             background: rgba(0, 0, 0, 0.02);
             border: 1px solid white;
         }
+    }
+    svg {
+        margin-top: 10px; /* Espaçamento entre o ícone e o texto */
     }
 `;
 export const SocialLinks = styled.div`
