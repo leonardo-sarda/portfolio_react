@@ -14,7 +14,7 @@ export default createGlobalStyle`
 body{
     background:  url(${PortBackground}) no-repeat center/cover ;
     -webkit-font-smoothing: antialiased;
-    height: 100vh;
+    height: auto;
 
     h1 {
         align-items: center;
