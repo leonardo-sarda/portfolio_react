@@ -16,8 +16,6 @@ const Contact: React.FC = () => {
     return (
         <>
             <Profile>
-                <img src={logoImg} alt="Leonardo Sardá" />
-
                 <Link to="/">
                     <FiChevronsLeft size={15} />
                 </Link>

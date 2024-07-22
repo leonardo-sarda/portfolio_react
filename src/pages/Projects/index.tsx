@@ -10,8 +10,6 @@ const Home: React.FC = () => {
     return (
         <>
             <Profile>
-                <img src={logoImg} alt="Leonardo Sardá" />
-
                 <Link to="/">
                     <FiChevronsLeft size={15} />
                 </Link>
@@ -30,16 +28,16 @@ const Home: React.FC = () => {
                             to="https://github.com/leonardo-sarda/github_explore"
                             target="__blank"
                         >
-                            <FiGithub />
+                            Repositório <FiGithub />
                         </Link>
                     </li>
                     <li>
                         <Link to="/">Controle Financeiro</Link>
                         <Link
-                            to="https://github.com/leonardo-sarda/github_explore"
+                            to="https://github.com/leonardo-sarda/go_finance"
                             target="__blank"
                         >
-                            <FiGithub />
+                            Repositório <FiGithub />
                         </Link>
                     </li>
                     <li>
@@ -48,7 +46,7 @@ const Home: React.FC = () => {
                             to="https://github.com/leonardo-sarda/goBarber"
                             target="__blank"
                         >
-                            <FiGithub />
+                            Repositório <FiGithub />
                         </Link>
                     </li>
                 </ul>

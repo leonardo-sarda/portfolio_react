@@ -2,31 +2,31 @@ import styled from 'styled-components';
 
 export const Profile = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     padding: 24px 0;
     font-weight: 500;
     line-height: 24px;
     align-items: center;
 
-    img {
+    /* img {
         width: 112px;
         display: flex;
         justify-content: right;
-    }
+    }*/
 
-    p {
+    /*p {
         font-weight: 500;
         line-height: 24px;
         margin-top: 8px;
         text-align: left;
-    }
+    }*/
 `;
 
 export const AboutLinks = styled.div`
     text-decoration: none;
     list-style: none;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     align-items: center;
 
     ul {
@@ -47,7 +47,7 @@ export const AboutLinks = styled.div`
 
         background: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.5);
-        text-decoration: none;
+
         border-radius: 8px;
         backdrop-filter: blur(4px);
         list-style: none;
@@ -57,6 +57,7 @@ export const AboutLinks = styled.div`
         &:hover {
             background: rgba(0, 0, 0, 0.02);
             border: 1px solid white;
+            text-decoration: underline;
         }
     }
 
@@ -87,7 +88,7 @@ export const SocialLinks = styled.div`
 export const Final = styled.p`
     text-align: center;
     padding: 24px 0;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
 `;

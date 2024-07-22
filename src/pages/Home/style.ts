@@ -14,6 +14,7 @@ export const Profile = styled.div`
         font-weight: 500;
         line-height: 24px;
         margin-top: 8px;
+        font-size: 20px;
     }
 `;
 
@@ -29,6 +30,7 @@ export const AboutLinks = styled.div`
         text-decoration: none;
         list-style: none;
         font-weight: 500;
+        font-size: 18px;
     }
     ul {
         list-style: none;
@@ -85,7 +87,7 @@ export const SocialLinks = styled.div`
 export const Final = styled.p`
     text-align: center;
     padding: 24px 0;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
 `;

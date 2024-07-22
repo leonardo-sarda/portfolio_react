@@ -2,16 +2,40 @@ import styled from 'styled-components';
 
 export const Profile = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     padding: 24px 0;
     font-weight: 500;
     line-height: 24px;
     align-items: center;
 
     img {
-        width: 112px;
+        width: 50px;
         display: flex;
-        justify-content: right;
+        justify-content: left;
+        border-radius: 50%;
+    }
+
+    p {
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 8px;
+        text-align: left;
+    }
+`;
+
+export const CompanyProfile = styled.div`
+    display: flex;
+    justify-content: left;
+    padding: 15px 0;
+    font-weight: 500;
+    line-height: 24px;
+    align-items: center;
+
+    img {
+        width: 50px;
+        display: flex;
+        justify-content: left;
+        border-radius: 50%;
     }
 
     p {
@@ -26,7 +50,7 @@ export const AboutLinks = styled.div`
     text-decoration: none;
     list-style: none;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     align-items: center;
 
     a {
@@ -92,7 +116,7 @@ export const SocialLinks = styled.div`
 export const Final = styled.p`
     text-align: center;
     padding: 24px 0;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
 `;

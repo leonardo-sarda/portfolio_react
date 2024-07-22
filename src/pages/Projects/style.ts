@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Profile = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     //text-align: center;
     padding: 24px 0;
     font-weight: 500;
     line-height: 24px;
     align-items: center;
 
-    img {
+    /*img {
         width: 112px;
     }
 
@@ -17,14 +17,14 @@ export const Profile = styled.div`
         font-weight: 500;
         line-height: 24px;
         margin-top: 8px;
-    }
+    }*/
 `;
 
 export const AboutLinks = styled.div`
     text-decoration: none;
     list-style: none;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     align-items: center;
 
     ul {
@@ -59,9 +59,17 @@ export const AboutLinks = styled.div`
             background: rgba(0, 0, 0, 0.02);
             border: 1px solid white;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
     }
     svg {
         margin-top: 10px; /* Espaçamento entre o ícone e o texto */
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 `;
 export const SocialLinks = styled.div`
@@ -87,7 +95,7 @@ export const SocialLinks = styled.div`
 export const Final = styled.p`
     text-align: center;
     padding: 24px 0;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
 `;
