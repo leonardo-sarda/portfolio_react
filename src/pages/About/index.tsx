@@ -10,6 +10,7 @@ import {
     Final,
     ComeBack,
     CompanyProfile,
+    Skills,
 } from './style';
 import { FiChevronRight, FiChevronsLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
@@ -22,55 +23,70 @@ const Home: React.FC = () => {
                     <FiChevronsLeft size={15} />
                 </Link>
             </Profile>
-
-            <AboutLinks>
+            <h1>Sobre</h1>
+            <CompanyProfile>
                 <ul>
-                    <h1>Sobre</h1>
                     <li>
-                        Sou um apaixonado por tecnologia, adoro aprender novas
-                        coisas e sempre busco oportunidades de crescimento
-                        profissional.
+                        Sou um profissional com 3 anos de experiência em
+                        sistemas ERP como Consinco TOTVS e SENIOR, com foco em
+                        desenvolvimento de relatórios, intranets e aplicações
+                        web usando PHP, PL/SQL Oracle, HTML, CSS, JavaScript,
+                        React, React Native e Node.js. Tenho paixão por
+                        tecnologia e estou sempre buscando oportunidades para
+                        aprender e crescer profissionalmente. Além disso, possuo
+                        conhecimento em Git, GitHub, Docker e TypeScript,
+                        essenciais para colaboração e desenvolvimento eficiente
+                        de software.
                     </li>
-                    <h1>Minhas Experiencias</h1>
-                    <CompanyProfile>
+                </ul>
+            </CompanyProfile>
+            <h1>Minhas Experiencias</h1>
+            <AboutLinks>
+                <CompanyProfile>
+                    <ul>
                         <a href="https://www.linkedin.com/company/abi-belem-&-cia-ltda---supermercados-belem/">
                             <img src={Belem} alt="" />
                             <p>Abi Belem & Cia Ltda - Supermercados Belem </p>
                         </a>
-                    </CompanyProfile>
-
-                    <li>
-                        <Link to="/">
-                            Analista de TI
-                            <br />
-                            Analista de Aprovisionamento - Supply ChainAnalista
-                            de Aprovisionamento - Supply Chain jun de 2020 - fev
-                            de 2021 · 9 mesesDe jun de 2020 até fev de 2021 · 9
-                            meses São Bento do Sul, Santa Catarina, Brasil
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/">
-                            Assitente de TI
-                            <br />
-                            Analista de Aprovisionamento - Supply ChainAnalista
-                            de Aprovisionamento - Supply Chain jun de 2020 - fev
-                            de 2021 · 9 mesesDe jun de 2020 até fev de 2021 · 9
-                            meses São Bento do Sul, Santa Catarina, Brasil
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/">
-                            Analista de Aprovisionamento
-                            <br />
-                            Analista de Aprovisionamento - Supply ChainAnalista
-                            de Aprovisionamento - Supply Chain jun de 2020 - fev
-                            de 2021 · 9 mesesDe jun de 2020 até fev de 2021 · 9
-                            meses São Bento do Sul, Santa Catarina, Brasil
-                        </Link>
-                    </li>
-                </ul>
+                        <li>
+                            Analista de TI <br></br>outubro de 2023 até abril de
+                            2024 - 7 meses
+                        </li>
+                        <li>
+                            Assistente de TI <br></br> fevereiro de 2021 até
+                            novembro de 2023 - 2 anos 10 meses
+                        </li>
+                        <li>
+                            Analista de Aprovisionamento - Supply Chain
+                            <br></br> Junho de 2020 até Feveriero de 2021 - 9
+                            meses
+                        </li>
+                    </ul>
+                </CompanyProfile>
             </AboutLinks>
+            <h1>Habilidades</h1>
+            <Skills>
+                <tbody>
+                    <tr>
+                        <td>PHP</td>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td>JAVASCRIPT</td>
+                    </tr>
+                    <tr>
+                        <td>REACT</td>
+                        <td>REACT-NATIVE</td>
+                        <td>NODEJS</td>
+                        <td>TYPESCRIPT</td>
+                    </tr>
+                    <tr>
+                        <td>MYSQL</td>
+                        <td>ORACLE</td>
+                        <td>PL/SQL</td>
+                        <td>POSTGRESQL</td>
+                    </tr>
+                </tbody>
+            </Skills>
             <SocialLinks>
                 <a
                     href="https://github.com/leonardo-sarda"

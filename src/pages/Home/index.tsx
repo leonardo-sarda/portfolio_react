@@ -15,13 +15,13 @@ const Home: React.FC = () => {
             <AboutLinks>
                 <ul>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">Sobre</Link>
                     </li>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/projects">Projetos</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact">Contato</Link>
                     </li>
                 </ul>
             </AboutLinks>
