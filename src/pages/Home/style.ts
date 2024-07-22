@@ -8,6 +8,8 @@ export const Profile = styled.div`
 
     img {
         width: 112px;
+        border-radius: 50%;
+        border: 2px solid grey;
     }
 
     p {
@@ -90,4 +92,12 @@ export const Final = styled.p`
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
+
+    a {
+        margin-left: 5px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 `;

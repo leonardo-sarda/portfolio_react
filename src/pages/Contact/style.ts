@@ -91,6 +91,14 @@ export const Final = styled.p`
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
+
+    a {
+        margin-left: 5px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const ComeBack = styled.div`

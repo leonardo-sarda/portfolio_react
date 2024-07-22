@@ -54,7 +54,7 @@ const Home: React.FC = () => {
                         </li>
                         <li>
                             Assistente de TI <br></br> fevereiro de 2021 até
-                            novembro de 2023 - 2 anos 10 meses
+                            outubro de 2023 - 2 anos 9 meses
                         </li>
                         <li>
                             Analista de Aprovisionamento - Supply Chain
@@ -104,7 +104,12 @@ const Home: React.FC = () => {
                 </a>
             </SocialLinks>
             <Final>
-                <p>Feito por Leonardo Sardá</p>
+                <p>
+                    Feito por
+                    <a href="https://portfolio-react-bay-mu.vercel.app">
+                        Leonardo Sardá
+                    </a>
+                </p>
             </Final>
         </>
     );

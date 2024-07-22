@@ -56,7 +56,12 @@ const Contact: React.FC = () => {
                 </a>
             </SocialLinks>
             <Final>
-                <p>Feito por Leonardo Sardá</p>
+                <p>
+                    Feito por
+                    <a href="https://portfolio-react-bay-mu.vercel.app">
+                        Leonardo Sardá
+                    </a>
+                </p>
             </Final>
         </>
     );

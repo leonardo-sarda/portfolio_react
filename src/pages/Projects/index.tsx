@@ -31,19 +31,13 @@ const Home: React.FC = () => {
                             Repositório <FiGithub />
                         </Link>
                     </li>
+
                     <li>
-                        <Link to="/">Controle Financeiro</Link>
-                        <Link
-                            to="https://github.com/leonardo-sarda/go_finance"
-                            target="__blank"
-                        >
-                            Repositório <FiGithub />
+                        <Link to="https://portfolio-react-bay-mu.vercel.app">
+                            Portfólio
                         </Link>
-                    </li>
-                    <li>
-                        <Link to="/">Agendamento de Barbearia</Link>
                         <Link
-                            to="https://github.com/leonardo-sarda/goBarber"
+                            to="https://github.com/leonardo-sarda/portfolio_react"
                             target="__blank"
                         >
                             Repositório <FiGithub />
@@ -68,7 +62,12 @@ const Home: React.FC = () => {
                 </a>
             </SocialLinks>
             <Final>
-                <p>Feito por Leonardo Sardá</p>
+                <p>
+                    Feito por
+                    <a href="https://portfolio-react-bay-mu.vercel.app">
+                        Leonardo Sardá
+                    </a>
+                </p>
             </Final>
         </>
     );

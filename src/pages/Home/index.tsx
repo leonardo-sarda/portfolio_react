@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from '../../assets/avatar.png';
+import logoImg from '../../assets/profile.jpeg';
 import GithubIcon from '../../assets/fav-icon/git.png';
 import Linkedin from '../../assets/fav-icon/Vector.png';
 import { Profile, AboutLinks, SocialLinks, Final } from './style';
@@ -42,7 +42,12 @@ const Home: React.FC = () => {
                 </a>
             </SocialLinks>
             <Final>
-                <p>Feito por Leonardo Sardá</p>
+                <p>
+                    Feito por
+                    <a href="https://portfolio-react-bay-mu.vercel.app">
+                        Leonardo Sardá.
+                    </a>
+                </p>
             </Final>
         </>
     );
