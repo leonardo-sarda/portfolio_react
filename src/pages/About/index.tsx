@@ -3,6 +3,7 @@ import logoImg from '../../assets/avatar.png';
 import GithubIcon from '../../assets/fav-icon/git.png';
 import Linkedin from '../../assets/fav-icon/Vector.png';
 import Belem from '../../assets/belem.jpeg';
+import Condor from '../../assets/condor.jpeg';
 import {
     Profile,
     AboutLinks,
@@ -42,6 +43,22 @@ const Home: React.FC = () => {
             </CompanyProfile>
             <h1>Minhas Experiencias</h1>
             <AboutLinks>
+                <CompanyProfile>
+                    <ul>
+                        <a href="">
+                            <img
+                                src={Condor}
+                                alt="https://www.linkedin.com/company/mundocondor/"
+                            />
+                            <p>Condor S/A</p>
+                        </a>
+
+                        <li>
+                            Analista de Sistemas <br></br>maio de 2024 -
+                            atualmente.
+                        </li>
+                    </ul>
+                </CompanyProfile>
                 <CompanyProfile>
                     <ul>
                         <a href="https://www.linkedin.com/company/abi-belem-&-cia-ltda---supermercados-belem/">
