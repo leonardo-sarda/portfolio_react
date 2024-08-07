@@ -102,6 +102,11 @@ const Home: React.FC = () => {
                         <td>PL/SQL</td>
                         <td>POSTGRESQL</td>
                     </tr>
+                    <tr>
+                        <td>GIT</td>
+                        <td>GITHUB</td>
+                        <td>DOCKER</td>
+                    </tr>
                 </tbody>
             </Skills>
             <SocialLinks>
