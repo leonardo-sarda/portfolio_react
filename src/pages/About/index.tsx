@@ -54,7 +54,7 @@ const Home: React.FC = () => {
                         </a>
 
                         <li>
-                            Analista de Sistemas <br></br>maio de 2024 -
+                            Analista de Sistemas <br></br>Agosto de 2024 -
                             atualmente.
                         </li>
                     </ul>
@@ -106,6 +106,7 @@ const Home: React.FC = () => {
                         <td>GIT</td>
                         <td>GITHUB</td>
                         <td>DOCKER</td>
+                        <td>PROGRESS</td>
                     </tr>
                 </tbody>
             </Skills>
