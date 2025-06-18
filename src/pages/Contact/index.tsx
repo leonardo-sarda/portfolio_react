@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                     <img src={GithubIcon} alt="" />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/leonardo-sardá/"
+                    href="https://www.linkedin.com/in/leonardo-m-sarda/"
                     target="_blank"
                     rel="noreferrer"
                 >
