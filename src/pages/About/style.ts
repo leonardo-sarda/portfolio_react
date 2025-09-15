@@ -31,6 +31,7 @@ export const CompanyProfile = styled.div`
     line-height: 24px;
     align-items: center;
     border-radius: 8px;
+    flex-direction: row;
 
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -57,7 +58,12 @@ export const CompanyProfile = styled.div`
         padding-left: 30px;
         font-weight: 500;
         line-height: 24px;
+        flex-direction: column;
     }
+    span{
+        font-size: small;
+    }
+
 
     /*ul {
         display: flex;

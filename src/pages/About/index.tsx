@@ -4,6 +4,7 @@ import GithubIcon from '../../assets/fav-icon/git.png';
 import Linkedin from '../../assets/fav-icon/Vector.png';
 import Belem from '../../assets/belem.jpeg';
 import Condor from '../../assets/condor.jpeg';
+import Admrh from '../../assets/admrh.jpeg';
 import {
     Profile,
     AboutLinks,
@@ -41,8 +42,29 @@ const Home: React.FC = () => {
                     </li>
                 </ul>
             </CompanyProfile>
-            <h1>Minhas Experiencias</h1>
+            <h1>Minhas Experiências</h1>
             <AboutLinks>
+            <CompanyProfile>
+                    <ul>
+                        <a href="">
+                            <img
+                                src={Admrh}
+                                alt="https://www.linkedin.com/company/adm-informática-ltda"
+                            />
+                            <p>ADM INFORMÁTICA LTDA</p>
+                            <br />
+                        </a>
+                        <li>
+                            Analista de Sistemas
+                            <br>
+                            </br>
+                            Agosto de 2025 -
+                            atualmente.
+                            <br />
+                            <span>Florianópolis, Santa Catarina, Brasil · Remota</span>
+                        </li>
+                    </ul>
+                </CompanyProfile>
                 <CompanyProfile>
                     <ul>
                         <a href="">
@@ -52,10 +74,11 @@ const Home: React.FC = () => {
                             />
                             <p>Condor S/A</p>
                         </a>
-
                         <li>
                             Analista de Sistemas <br></br>Agosto de 2024 -
-                            atualmente.
+                            Agosto de 2025 - 1 ano
+                            <span>São Bento do Sul, Santa Catarina, Brasil · Presencial
+                             </span>
                         </li>
                     </ul>
                 </CompanyProfile>
@@ -66,16 +89,17 @@ const Home: React.FC = () => {
                             <p>Abi Belem & Cia Ltda - Supermercados Belem </p>
                         </a>
                         <li>
-                            Analista de TI <br></br>outubro de 2023 até abril de
+                            Analista de TI <br></br>Outubro de 2023 até Abril de
                             2024 - 7 meses
+                            <span>São Bento do Sul, Santa Catarina, Brasil · Presencial</span>
                         </li>
                         <li>
-                            Assistente de TI <br></br> fevereiro de 2021 até
-                            outubro de 2023 - 2 anos 9 meses
+                            Assistente de TI <br></br>Fevereiro de 2021 até
+                            Outubro de 2023 - 2 anos 9 meses
                         </li>
                         <li>
                             Analista de Aprovisionamento - Supply Chain
-                            <br></br> Junho de 2020 até Feveriero de 2021 - 9
+                            <br></br> Junho de 2020 até Fevereiro de 2021 - 9
                             meses
                         </li>
                     </ul>
